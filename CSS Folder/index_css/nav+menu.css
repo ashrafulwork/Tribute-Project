@@ -1,0 +1,29 @@
+nav{
+
+    white-space: normal;
+    color: white;
+    
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    padding: 10px;
+    border: 1px ;
+    border-style: solid;
+}
+li{
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: monospace;
+    
+
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover {
+   
+  color: #54b3d6;
+  
+}

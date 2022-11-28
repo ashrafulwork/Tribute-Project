@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    
+
+}
+p{
+color:white;
+margin: 0 auto;
+
+border:3px;
+border-style: solid;
+border-color: white;
+border-radius: 10px;
+font-size: 30px;
+border-width: thick;
+width:200px;
+text-align: center;
+
+
+}
+
+img{
+
+width: 60px;
+padding-left: 30px;
+float:left;
+
+}
+
+
+
+
+audio{
+
+
+padding-left: 607px;
+padding-top: 600px;
+
+width: 350px;
+
+}
