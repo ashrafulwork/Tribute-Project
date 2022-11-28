@@ -1,40 +1,165 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS Folder/index_css/nav+menu.css">
-    <link rel="stylesheet" href="/CSS Folder/index_css/p+image+audio.css">
+<style>
+    #u1{
+        color: #54b3d6;
+        font-size:70px;
+        text-align: center;
+    }
+    body{
+        background-color: black;
+    }
+    #u2{
 
-    <title>El Professor</title>
-   
-</head>
-<body>
-    
-    <p><a>Team Alliance</a></p>
-    <br>
-    <br>
-    <nav>
-       <ul>
+        color: #54b3d6;
+        justify-content:baseline;
+        font-family: monospace;
+        font-size: 50px;
+        text-align: center;
        
-        <li><a href="#">Facebook Page</a></li>
-        <li> <a href="about.html">About Us</a></li>
-        <li> <a href="contact.html">Contact</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href = "memories.html">Memories</a></li>
+    }
 
-       </ul> 
+    #u3{
+        color: #54b3d6;
+        justify-content:baseline;
+        font-family: monospace;
+        font-size: 15px;
+        padding-left: 17px;
+        text-decoration: none;
+    }
+    img{
         
-       <link rel="stylesheet" href="/CSS Folder/animation/anm.css">
-       <marquee direction="right" 
-               behavior="alternate" 
-               >
-               Team Alliance Production
-           </marquee>
-       
-    </nav>
-    <audio controls>
+        width: 150px;
+        padding-left: 20px;
+        padding-top: 20px;
+
+
+    }
+  
+    #u4{
+        color: #54b3d6;
+        justify-content:baseline;
+        font-family: monospace;
+        font-size: 15px;
+        padding-left: 46px;
+    }
+
+    #u5{
+
+border:3px;
+border-style: solid;
+border-color: #54b3d6;
+width:fit-content;
+display: block;
+
+width: 100px;
+margin: auto;
+color: #54b3d6;
+text-decoration: none;
+text-align: center;
+
+
+} 
+
+#u6{
+    border:3px;
+border-style: solid;
+border-color: #54b3d6;
+width:fit-content;
+display: block;
+
+width: 50px;
+margin-left: 58px;
+color: #54b3d6;
+text-decoration: none;
+text-align: center;
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+#h2{
+
+    position: relative;
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke: 0.01vw #54b3d6;
+    width: 1000;
+    margin-left: 318px;
+    font-family: monospace;
+
+
+
     
-        <source src="Music/mar.mp3" type="audio/mp3"/>GGWP
-GGWWP
-    </audio>    </body>
-</html>
+        
+        
+        
+        
+
+
+
+
+}
+
+h2::before{
+
+
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 10;
+    height: 100%;
+    color:#54b3d6;
+    -webkit-text-stroke: 0vw #54b3d6;
+    border-right: 2px solid #ffffff;
+    overflow: hidden;
+    animation: animate 10s linear infinite;
+
+
+
+}
+
+@keyframes animate {
+    
+    0%,10%,100%
+    {
+        width:0;
+    }
+
+
+    70%,90%
+    {
+
+        width:100%;
+    }
+}
+    
+</style>
+<body>
+<div class="spin"></div>
+
+<p id="u1">"Hello World !" </p>
+
+
+
+<h2 data-text="From where it all began :)  ....." id="h2">From where it all began :)  .....</h2>
+<br><br><br><br><br><br><br>
+<a href="home.html" id="u5">Go to website</a>
+
+</head>
+</body>
+
+    
+
+
